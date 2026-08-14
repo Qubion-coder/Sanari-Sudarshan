@@ -3,13 +3,13 @@ import { motion, AnimatePresence } from 'motion/react';
 import { X, ZoomIn } from 'lucide-react';
 
 const images = [
-  { id: 3, url: '/pre/IMG_8874.JPG.jpeg', fallback: 'https://images.unsplash.com/photo-1606800052052-a08af7148866?q=80&w=800&auto=format&fit=crop', title: 'A Thousand Words' },
-  { id: 4, url: '/pre/IMG_8876.JPG.jpeg', fallback: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=800&auto=format&fit=crop', title: 'Endless Love' },
-  { id: 5, url: '/pre/IMG_8877.JPG.jpeg', fallback: 'https://images.unsplash.com/photo-1532712938310-34cb3982ef74?q=80&w=800&auto=format&fit=crop', title: 'Cherished Moments' },
-  { id: 2, url: '/pre/24.jpg.jpeg', fallback: 'https://images.unsplash.com/photo-1522673607200-164d1f624698?q=80&w=800&auto=format&fit=crop', title: 'Our Journey' },
-  { id: 6, url: '/pre/IMG_8879.JPG.jpeg', fallback: 'https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=800&auto=format&fit=crop', title: 'Together Forever' },
-  { id: 7, url: '/pre/IMG_8943.JPG.jpeg', fallback: 'https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=800&auto=format&fit=crop', title: 'Forever & Always' },
-  { id: 1, url: '/pre/23.jpg.jpeg', fallback: 'https://images.unsplash.com/photo-1520854221256-17451cc331bf?q=80&w=800&auto=format&fit=crop', title: 'The Beginning' },
+  { id: 3, url: '/pre/IMG_8874.JPG.jpeg', title: 'A Thousand Words' },
+  { id: 4, url: '/pre/IMG_8876.JPG.jpeg', title: 'Endless Love' },
+  { id: 5, url: '/pre/IMG_8877.JPG.jpeg', title: 'Cherished Moments' },
+  { id: 2, url: '/pre/24.jpg.jpeg', title: 'Our Journey' },
+  { id: 6, url: '/pre/IMG_8879.JPG.jpeg', title: 'Together Forever' },
+  { id: 1, url: '/pre/23.jpg.jpeg', title: 'The Beginning' },
+  { id: 8, url: '/WhatsApp Image 2026-07-0j9 at 21.34.28.jpeg', title: 'Beautiful Moments' },
 ];
 
 export const Gallery: React.FC = () => {
@@ -75,7 +75,6 @@ export const Gallery: React.FC = () => {
             >
               <img
                 src={image.url}
-                onError={(e) => { e.currentTarget.src = image.fallback; }}
                 alt={image.title}
                 className="w-full h-full object-cover transition-transform duration-[2s] ease-out group-hover:scale-110"
               />
@@ -115,16 +114,12 @@ export const Gallery: React.FC = () => {
             >
               <X className="w-8 h-8 group-hover:rotate-90 transition-transform duration-500" />
             </button>
-            <motion.img
+              <motion.img
               initial={{ scale: 0.8, opacity: 0, y: 40 }}
               animate={{ scale: 1, opacity: 1, y: 0 }}
               exit={{ scale: 0.8, opacity: 0, y: 40 }}
               transition={{ type: 'spring', damping: 25, stiffness: 200 }}
               src={selectedImage}
-              onError={(e) => {
-                const fallbackImage = marqueeImages.find(img => img.url === selectedImage)?.fallback;
-                if (fallbackImage) e.currentTarget.src = fallbackImage;
-              }}
               alt="Gallery Preview"
               className="max-w-full max-h-[90vh] object-contain rounded-2xl shadow-[0_30px_80px_rgba(0,0,0,0.6)] border-[6px] border-white/10"
               onClick={(e) => e.stopPropagation()}
