@@ -39,7 +39,6 @@ export function IntroVideo({ onComplete, onMusicStart, readyToTransition = true 
             autoPlay
             muted
             loop
-            preload="auto"
             src="/intro.mp4"
           />
           {/* Overlay to ensure text remains readable */}
@@ -94,7 +93,6 @@ export function IntroVideo({ onComplete, onMusicStart, readyToTransition = true 
             className="w-full h-full object-cover sm:object-contain"
             playsInline
             autoPlay
-            preload="auto"
             onEnded={handleVideoEnded}
             src="/intro.mp4"
           />

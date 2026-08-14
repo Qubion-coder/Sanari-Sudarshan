@@ -63,12 +63,3 @@ img {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--color-brand-plum);
 }
-
-/* Hide default video play button and controls */
-video::-webkit-media-controls {
-  display: none !important;
-}
-
-video::-webkit-media-controls-start-playback-button {
-  display: none !important;
-}

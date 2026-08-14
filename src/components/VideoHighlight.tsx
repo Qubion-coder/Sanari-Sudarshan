@@ -46,7 +46,6 @@ export const VideoHighlight: React.FC = () => {
           loop
           muted
           playsInline
-          preload="auto"
         />
 
         {/* Elegant Inner Shadow */}
