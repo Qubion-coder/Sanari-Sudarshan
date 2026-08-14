@@ -89,10 +89,9 @@ export const RSVPForm: React.FC<RSVPFormProps> = ({ inviteeName = '', eventName 
               : `Your presence means the world to us. Please kindly let us know if you will be able to join our celebration.`
             }
           </p>
-          <div className="mt-6 mb-8 text-sm font-sans tracking-[0.2em] uppercase font-semibold text-brand-plum drop-shadow-sm leading-loose">
-            RSVP BY <br />
-            076 429 1756 - Apsara <br /> 
-            076 533 9931 - Teshan
+          <div className="mt-6 mb-8 text-[10px] sm:text-sm font-sans tracking-[0.15em] sm:tracking-[0.2em] uppercase font-semibold text-brand-plum drop-shadow-sm leading-loose">
+            RSVP BY 30TH AUGUST 2026 <br />
+            SAMADHI: 077 517 9160
           </div>
           <div className="w-12 h-[1px] bg-brand-lavender/50 mx-auto lg:mx-0" />
         </div>

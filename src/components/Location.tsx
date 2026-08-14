@@ -9,22 +9,13 @@ interface LocationProps {
 export const Location: React.FC<LocationProps> = ({ event = 'both' }) => {
   const venues = [
     {
-      id: 'ceremony',
-      name: "St. Mary's Church",
-      city: "Negombo",
-      quote: `"A beautiful and sacred place where we will unite in holy matrimony."`,
-      liveLocationUrl: "https://maps.app.goo.gl/kPtBACZFd3AcKa1u9",
-      imageUrl: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Negombo%2C_St._Mary%27s_Church%2C_2025-07_CN-02.jpg",
-      label: "The Ceremony"
-    },
-    {
-      id: 'reception',
-      name: "Centrium Ballroom, Avenra Gardens",
-      city: "Negombo",
-      quote: `"A serene and elegant setting where we will celebrate our wedding function with joy and laughter."`,
-      liveLocationUrl: "https://maps.app.goo.gl/3HPomRVMHdbHUbo86",
-      imageUrl: "https://www.aha.lk/img/projects/1%20%281%291565002653.jpg",
-      label: "The Reception"
+      id: 'venue',
+      name: "Dutch Gate",
+      city: "Aluthgama",
+      quote: `"A beautiful and sacred place where we will unite in holy matrimony and celebrate with joy and laughter."`,
+      liveLocationUrl: "https://maps.app.goo.gl/9a2Pdk2e7aqkk5qBA",
+      imageUrl: "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/499385770.jpg?k=989ae1ec64ed8f044407ede90648ebdfc1fcfd8c26040bc36263004526066774&o=",
+      label: "The Venue"
     }
   ];
 

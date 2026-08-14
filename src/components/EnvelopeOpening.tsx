@@ -450,9 +450,9 @@ export function EnvelopeOpening({
               </div>
 
               <h1 className="text-names">
-                Apsara
+                Samadhi
                 <span className="text-ampersand">&</span>
-                Teshan
+                Amanga
               </h1>
 
               <div className="divider">
@@ -464,8 +464,8 @@ export function EnvelopeOpening({
               <div className="text-details">
                 Request the honour of your presence<br />
                 to celebrate their marriage at<br />
-                <span className="text-church">Centrium Ballroom, Avenra Gardens</span><br />
-                Negombo
+                <span className="text-church">Dutch Gate</span><br />
+                Aluthgama
               </div>
             </div>
           </div>
