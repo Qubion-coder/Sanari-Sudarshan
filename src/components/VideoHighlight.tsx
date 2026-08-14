@@ -4,11 +4,18 @@ import { Heart } from 'lucide-react';
 
 export const VideoHighlight: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
   
   const { scrollYProgress } = useScroll({
     target: containerRef,
     offset: ["start end", "end start"]
   });
+
+  React.useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.playbackRate = 0.7; // Small slow motion effect
+    }
+  }, []);
 
   const scale = useTransform(scrollYProgress, [0, 0.5, 1], [0.9, 1, 0.9]);
   const opacity = useTransform(scrollYProgress, [0, 0.3, 0.7, 1], [0.3, 1, 1, 0.3]);
@@ -40,6 +47,7 @@ export const VideoHighlight: React.FC = () => {
         className="w-[90%] max-w-6xl aspect-[3/4] sm:aspect-video lg:aspect-[21/9] rounded-[2rem] sm:rounded-[3rem] overflow-hidden relative shadow-[0_30px_60px_rgba(176,137,104,0.3)] border-[8px] sm:border-[16px] border-white/90 bg-brand-rose"
       >
         <video 
+          ref={videoRef}
           src="/IMG_8720.MP4"
           className="w-full h-full object-cover"
           autoPlay

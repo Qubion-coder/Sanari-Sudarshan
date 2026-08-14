@@ -16,7 +16,7 @@ export const RSVPForm: React.FC<RSVPFormProps> = ({ inviteeName = '', eventName 
     dietaryNotes: '',
   });
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
-  const scriptUrl = "https://script.google.com/macros/s/AKfycbyDuWCJjIQ7egU3VZBzAndlosVuJyfZnbGaEKA47SuOcj6iSQQys1ksRSaphGAB37V_/exec";
+  const scriptUrl = "https://script.google.com/macros/s/AKfycbzDN1pLHPAcqbe3TLglh17a-sKrY6-xpV4mtMbx4owsML__grmOD094DmDCxOkwQA4h/exec";
 
   useEffect(() => {
     if (inviteeName) {

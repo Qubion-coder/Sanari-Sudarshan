@@ -50,7 +50,7 @@ ${url}
 Your presence would truly mean the world to us, and we would be honored to celebrate this beautiful moment together.
 
 With love,
-❤️ Samadhi & Amanga`;
+❤️ Amanga & Samadhi`;
   };
 
   const handleCopyMessageActive = () => {

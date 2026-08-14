@@ -17,7 +17,7 @@ export const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
     const timer = setInterval(() => {
       const now = new Date();
       const difference = targetDate.getTime() - now.getTime();
-      
+
       const days = Math.max(0, Math.floor(difference / (1000 * 60 * 60 * 24)));
       const hours = Math.max(0, Math.floor((difference / (1000 * 60 * 60)) % 24));
       const minutes = Math.max(0, Math.floor((difference / 1000 / 60) % 60));
@@ -37,7 +37,7 @@ export const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
         { label: 'Minutes', value: timeLeft.minutes },
         { label: 'Seconds', value: timeLeft.seconds },
       ].map((item, i) => (
-        <motion.div 
+        <motion.div
           key={item.label}
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -47,7 +47,7 @@ export const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
         >
           {/* Glass background arch */}
           <div className="absolute inset-0 bg-white/60 backdrop-blur-md border border-brand-lavender/40 shadow-[0_15px_30px_rgba(176,137,104,0.1)] rounded-[3rem_3rem_1rem_1rem] sm:rounded-[4rem_4rem_1.5rem_1.5rem] group-hover:shadow-[0_20px_40px_rgba(176,137,104,0.2)] transition-all duration-700 ease-out group-hover:-translate-y-3 pointer-events-none" />
-          
+
           <div className="relative pt-10 pb-8 px-4 flex flex-col items-center w-full z-10 transition-transform duration-700 group-hover:-translate-y-3">
             {/* Elegant number */}
             <span className="text-5xl sm:text-6xl lg:text-7xl font-display font-medium text-brand-plum mb-4 drop-shadow-[0_2px_4px_rgba(176,137,104,0.3)] tabular-nums tracking-wide">
