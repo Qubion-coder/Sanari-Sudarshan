@@ -9,7 +9,6 @@ const images = [
   { id: 2, url: '/pre/24.jpg.jpeg', title: 'Our Journey' },
   { id: 6, url: '/pre/IMG_8879.JPG.jpeg', title: 'Together Forever' },
   { id: 1, url: '/pre/23.jpg.jpeg', title: 'The Beginning' },
-  { id: 8, url: '/WhatsApp Image 2026-07-0j9 at 21.34.28.jpeg', title: 'Beautiful Moments' },
 ];
 
 export const Gallery: React.FC = () => {
