@@ -13,7 +13,7 @@ export const Location: React.FC<LocationProps> = ({ event = 'both' }) => {
       name: "Dutch Gate",
       city: "Aluthgama",
       quote: `"A beautiful and sacred place where we will unite in holy matrimony and celebrate with joy and laughter."`,
-      liveLocationUrl: "https://maps.app.goo.gl/9a2Pdk2e7aqkk5qBA",
+      liveLocationUrl: "https://maps.app.goo.gl/xZmJrxWGibHVRGXQA",
       imageUrl: "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/499385770.jpg?k=989ae1ec64ed8f044407ede90648ebdfc1fcfd8c26040bc36263004526066774&o=",
       label: "The Venue"
     }
