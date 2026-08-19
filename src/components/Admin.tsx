@@ -50,7 +50,7 @@ ${url}
 Your presence would truly mean the world to us, and we would be honored to celebrate this beautiful moment together.
 
 With love,
-❤️ Inoka & Denasa`;
+❤️ Sudarshan & Sanari`;
   };
 
   const handleCopyMessageActive = () => {
@@ -70,8 +70,8 @@ With love,
       <div className="max-w-4xl mx-auto">
         {/* Back to main website button */}
         <div className="mb-8 flex justify-between items-center">
-          <a 
-            href="/" 
+          <a
+            href="/"
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white/80 border border-brand-lavender/40 text-stone-600 hover:text-brand-plum hover:bg-white transition-all shadow-sm font-medium text-sm group"
           >
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
@@ -99,7 +99,7 @@ With love,
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
           {/* Generator Form */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
@@ -159,7 +159,7 @@ With love,
           </motion.div>
 
           {/* Generated Link & History */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
@@ -171,7 +171,7 @@ With love,
                 <LinkIcon className="w-5 h-5 text-brand-plum" />
                 Generated Link
               </h3>
-              
+
               {generatedUrl ? (
                 <div className="space-y-6 animate-fadeIn">
                   <div className="p-5 bg-stone-50 rounded-2xl border border-stone-200/80 shadow-inner">

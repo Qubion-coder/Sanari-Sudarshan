@@ -12,7 +12,7 @@ interface BlessingData {
 export function BlessingForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { register, handleSubmit, reset, formState: { errors } } = useForm<BlessingData>();
-  const scriptUrl = "https://script.google.com/macros/s/AKfycbzDN1pLHPAcqbe3TLglh17a-sKrY6-xpV4mtMbx4owsML__grmOD094DmDCxOkwQA4h/exec";
+  const scriptUrl = "https://script.google.com/macros/s/AKfycbweBoAnXV8P99KcA65sRIXHHJy8cZrmOe09BgiaD5UlZK62YIYGvvEkUA2KYnO8-24-qg/exec";
 
   const onSubmit = async (data: BlessingData) => {
     setIsSubmitting(true);

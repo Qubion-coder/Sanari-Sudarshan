@@ -16,7 +16,7 @@ export const RSVPForm: React.FC<RSVPFormProps> = ({ inviteeName = '', eventName 
     dietaryNotes: '',
   });
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
-  const scriptUrl = "https://script.google.com/macros/s/AKfycbzDN1pLHPAcqbe3TLglh17a-sKrY6-xpV4mtMbx4owsML__grmOD094DmDCxOkwQA4h/exec";
+  const scriptUrl = "https://script.google.com/macros/s/AKfycbweBoAnXV8P99KcA65sRIXHHJy8cZrmOe09BgiaD5UlZK62YIYGvvEkUA2KYnO8-24-qg/exec";
 
   useEffect(() => {
     if (inviteeName) {
@@ -89,10 +89,7 @@ export const RSVPForm: React.FC<RSVPFormProps> = ({ inviteeName = '', eventName 
               : `Your presence means the world to us. Please kindly let us know if you will be able to join our celebration.`
             }
           </p>
-          <div className="mt-6 mb-8 text-[10px] sm:text-sm font-sans tracking-[0.15em] sm:tracking-[0.2em] uppercase font-semibold text-brand-plum drop-shadow-sm leading-loose">
-            RSVP | 0773 895 663 | 0771 978 638
-          </div>
-          <div className="w-12 h-[1px] bg-brand-lavender/50 mx-auto lg:mx-0" />
+          <div className="w-12 h-[1px] bg-brand-lavender/50 mx-auto lg:mx-0 mt-8" />
         </div>
 
         {/* Right Side: Flowing Form */}

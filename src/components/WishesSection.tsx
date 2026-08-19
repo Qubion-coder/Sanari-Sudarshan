@@ -35,7 +35,7 @@ export const WishesSection: React.FC<WishesSectionProps> = ({ eventParam = 'both
       setFormData(prev => ({ ...prev, name: inviteeName }));
     }
   }, [inviteeName]);
-  const scriptUrl = "https://script.google.com/macros/s/AKfycbzDN1pLHPAcqbe3TLglh17a-sKrY6-xpV4mtMbx4owsML__grmOD094DmDCxOkwQA4h/exec";
+  const scriptUrl = "https://script.google.com/macros/s/AKfycbweBoAnXV8P99KcA65sRIXHHJy8cZrmOe09BgiaD5UlZK62YIYGvvEkUA2KYnO8-24-qg/exec";
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();

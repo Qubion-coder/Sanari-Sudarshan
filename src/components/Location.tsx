@@ -10,11 +10,11 @@ export const Location: React.FC<LocationProps> = ({ event = 'both' }) => {
   const venues = [
     {
       id: 'venue',
-      name: "King's Court",
-      city: "Cinnamon Lakeside, Colombo 2",
+      name: "Asliya Golden Cassandra",
+      city: "Anuradhapura",
       quote: `"A beautiful and sacred place where we will unite in holy matrimony and celebrate with joy and laughter."`,
-      liveLocationUrl: "https://maps.app.goo.gl/Fe5XG2hPFopH6QVB8",
-      imageUrl: "https://q-xx.bstatic.com/xdata/images/hotel/max500/647785418.jpg?k=d38abebc82b022305b1f621bab8e6c76e2c198397966c64f70a7c38083cd80b1&o=",
+      liveLocationUrl: "https://maps.app.goo.gl/iwzddStoqXc3FqpY9?g_st=ic",
+      imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx1EPwRl4rDl65nZQ5JaVXn7-VlgRr5k61JyZyrH7t_WuYv0fdDdzqjy4&s=10",
       label: "The Venue"
     }
   ];
