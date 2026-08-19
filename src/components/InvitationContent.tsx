@@ -4,8 +4,8 @@ import { Hero } from './Hero';
 import { FloatingPetals } from './FloatingPetals';
 import { CoupleDetails } from './CoupleDetails';
 import { CeremonyDetails } from './CeremonyDetails';
-import { Gallery } from './Gallery';
-import { VideoHighlight } from './VideoHighlight';
+
+
 import { Location } from './Location';
 import { Timeline } from './Timeline';
 import { Countdown } from './Countdown';
@@ -68,22 +68,12 @@ export function InvitationContent({
       <DeferredMount active={active} delay={120} minHeight="40vh">
         <div className="py-24 sm:py-32 bg-gradient-to-b from-brand-blush via-white to-brand-blush relative overflow-hidden">
           {/* Watermark Background Image covering full section including padding */}
-          <div className="absolute inset-x-0 bottom-0 top-0 z-0 pointer-events-none overflow-hidden flex items-center justify-center opacity-10 mix-blend-multiply">
-            <img
-              src="/WhatsApp%20Image%202026-07-09%20at%2021.34.28.jpeg"
-              alt="Watermark background"
-              className="w-full h-full object-cover object-top sm:object-center sepia contrast-125"
-            />
-          </div>
+
           <CoupleDetails />
         </div>
       </DeferredMount>
 
-      <DeferredMount active={active} delay={150} minHeight="50vh">
-        <div className="bg-white relative overflow-hidden">
-          <VideoHighlight />
-        </div>
-      </DeferredMount>
+
 
       <DeferredMount active={active} delay={180} minHeight="40vh">
         <div className="py-24 sm:py-32 bg-white relative overflow-hidden">
@@ -91,11 +81,7 @@ export function InvitationContent({
         </div>
       </DeferredMount>
 
-      <DeferredMount active={active} delay={200} minHeight="40vh">
-        <div className="bg-white relative overflow-hidden">
-          <Gallery />
-        </div>
-      </DeferredMount>
+
 
       <DeferredMount active={active} delay={240} minHeight="40vh">
         <div className="pt-24 pb-12 sm:py-32 bg-gradient-to-b from-white via-brand-rose/30 to-brand-blush relative overflow-hidden">
@@ -141,9 +127,9 @@ export function InvitationContent({
         <footer className="py-12 bg-white border-t border-brand-lavender/20 text-center relative overflow-hidden mt-10">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-brand-lavender/10 blur-[80px] rounded-full pointer-events-none" />
           <Heart className="w-6 h-6 mx-auto mb-6 text-brand-plum fill-brand-lavender/20" />
-          <p className="font-names text-4xl sm:text-5xl text-stone-800 mb-2">Samadhi & Amanga</p>
+          <p className="font-names text-4xl sm:text-5xl text-stone-800 mb-2">Denasa & Inoka</p>
           <span className="text-[10px] sm:text-[11px] uppercase tracking-[0.4em] font-sans text-stone-400 font-semibold block mb-6">
-            September 14, 2026
+            November 11, 2026
           </span>
           <p className="text-stone-500 text-[10px] sm:text-xs mt-2 font-sans tracking-wider">
             Want a beautiful wedding website like this? Create yours with <a target="_blank" rel="noreferrer" className="text-brand-plum font-bold hover:text-stone-800 transition-colors underline decoration-brand-plum/30 underline-offset-4" href="https://wa.me/94707819074">invitemint</a>

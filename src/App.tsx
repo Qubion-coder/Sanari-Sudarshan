@@ -24,7 +24,7 @@ export default function App() {
 
   let eventLabel = 'Our Wedding Celebration';
 
-  const weddingDate = new Date('2026-09-14T15:30:00');
+  const weddingDate = new Date('2026-11-11T10:00:00');
 
   useEffect(() => {
     if (isAdminRoute()) return;

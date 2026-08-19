@@ -450,9 +450,9 @@ export function EnvelopeOpening({
               </div>
 
               <h1 className="text-names">
-                Samadhi
+                Denasa
                 <span className="text-ampersand">&</span>
-                Amanga
+                Inoka
               </h1>
 
               <div className="divider">

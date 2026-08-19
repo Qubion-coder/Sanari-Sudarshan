@@ -48,7 +48,7 @@ export const CeremonyDetails: React.FC<CeremonyDetailsProps> = ({ event = 'both'
                 </div>
                 <div>
                   <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 group-hover:text-brand-plum transition-colors duration-500">
-                    Date: September 14, 2026
+                    Date: November 11, 2026
                   </h4>
                 </div>
               </div>
@@ -60,7 +60,7 @@ export const CeremonyDetails: React.FC<CeremonyDetailsProps> = ({ event = 'both'
                 </div>
                 <div>
                   <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 group-hover:text-brand-plum transition-colors duration-500">
-                    Venue: Dutch Gate, Aluthgama
+                    Venue: King's Court, Cinnamon Lakeside, Colombo 2
                   </h4>
                 </div>
               </div>
@@ -76,7 +76,7 @@ export const CeremonyDetails: React.FC<CeremonyDetailsProps> = ({ event = 'both'
                   </h4>
                   <div className="space-y-1.5 text-stone-500/90 font-serif text-base sm:text-lg">
                     <p>
-                      <span className="font-semibold text-stone-700">Time:</span> 03.30 PM
+                      <span className="font-semibold text-stone-700">Time:</span> 11:00 AM
                     </p>
                   </div>
                 </div>
@@ -89,11 +89,11 @@ export const CeremonyDetails: React.FC<CeremonyDetailsProps> = ({ event = 'both'
                 </div>
                 <div>
                   <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-3 group-hover:text-brand-plum transition-colors duration-500">
-                    Night Function
+                    Wedding Celebration
                   </h4>
                   <div className="space-y-1.5 text-stone-500/90 font-serif text-base sm:text-lg">
                     <p>
-                      <span className="font-semibold text-stone-700">Time:</span> 07.00 PM Onwards
+                      <span className="font-semibold text-stone-700">Time:</span> 10:00 AM - 3:00 PM
                     </p>
                   </div>
                 </div>

@@ -2,11 +2,12 @@
 @import "tailwindcss";
 
 @theme {
-  /* Ivory/Pink/Gold Color Palette */
-  --color-brand-plum: #b89645;
-  --color-brand-lavender: #f0b9c3;
-  --color-brand-rose: #f8dbdf;
-  --color-brand-blush: #fffff4;
+  /* Dusty Rose/Blush/Ivory/Champagne/Gold Color Palette */
+  --color-brand-plum: #B88386;
+  --color-brand-lavender: #D6C1BC;
+  --color-brand-rose: #EADCC6;
+  --color-brand-blush: #F7F4EE;
+  --color-brand-gold: #D4AF37;
 
   --font-serif: "Cormorant Garamond", serif;
   --font-display: "Great Vibes", cursive;

@@ -10,11 +10,11 @@ export const Location: React.FC<LocationProps> = ({ event = 'both' }) => {
   const venues = [
     {
       id: 'venue',
-      name: "Dutch Gate",
-      city: "Aluthgama",
+      name: "King's Court",
+      city: "Cinnamon Lakeside, Colombo 2",
       quote: `"A beautiful and sacred place where we will unite in holy matrimony and celebrate with joy and laughter."`,
-      liveLocationUrl: "https://maps.app.goo.gl/xZmJrxWGibHVRGXQA",
-      imageUrl: "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/499385770.jpg?k=989ae1ec64ed8f044407ede90648ebdfc1fcfd8c26040bc36263004526066774&o=",
+      liveLocationUrl: "https://maps.app.goo.gl/Fe5XG2hPFopH6QVB8",
+      imageUrl: "https://q-xx.bstatic.com/xdata/images/hotel/max500/647785418.jpg?k=d38abebc82b022305b1f621bab8e6c76e2c198397966c64f70a7c38083cd80b1&o=",
       label: "The Venue"
     }
   ];

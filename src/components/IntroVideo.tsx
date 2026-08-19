@@ -59,7 +59,7 @@ export function IntroVideo({ onComplete, onMusicStart, readyToTransition = true 
           <div className="inline-flex items-center gap-4 mb-6">
             <div className="w-12 sm:w-20 h-[1px] bg-gradient-to-r from-transparent to-brand-plum/60" />
             <span className="text-brand-plum uppercase tracking-[0.5em] text-[10px] sm:text-[11px] font-semibold font-sans drop-shadow-sm">
-              Samadhi & Amanga
+              Denasa & Inoka
             </span>
             <div className="w-12 sm:w-20 h-[1px] bg-gradient-to-l from-transparent to-brand-plum/60" />
           </div>
