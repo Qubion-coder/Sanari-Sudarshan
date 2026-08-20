@@ -11,7 +11,7 @@ export const Location: React.FC<LocationProps> = ({ event = 'both' }) => {
     {
       id: 'venue',
       name: "Asliya Golden Cassandra",
-      city: "Anuradhapura",
+      city: "Kurunegala",
       quote: `"A beautiful and sacred place where we will unite in holy matrimony and celebrate with joy and laughter."`,
       liveLocationUrl: "https://maps.app.goo.gl/iwzddStoqXc3FqpY9?g_st=ic",
       imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx1EPwRl4rDl65nZQ5JaVXn7-VlgRr5k61JyZyrH7t_WuYv0fdDdzqjy4&s=10",

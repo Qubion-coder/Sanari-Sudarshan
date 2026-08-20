@@ -51,7 +51,7 @@ export const Hero: React.FC<HeroProps> = ({ event = 'both', inviteeName }) => {
       >
         <img
           src="/ChatGPT Image Jul 5, 2026, 02_20_06 AM.png"
-          alt="Wedding Background"
+          alt="Engagement Background"
           loading="eager"
           fetchPriority="high"
           decoding="async"

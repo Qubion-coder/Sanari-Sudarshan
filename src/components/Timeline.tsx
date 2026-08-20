@@ -5,7 +5,7 @@ import { Heart, Music, Camera, Utensils, PartyPopper } from 'lucide-react';
 const events = [
   { time: '08:00 AM', title: 'Arrival & Welcome', icon: Heart, desc: 'Welcome our guests to start the celebration.' },
   { time: '08:30 AM', title: 'Registration', icon: Camera, desc: 'Registration of the marriage.' },
-  { time: '09:30 AM', title: 'Wedding Celebration', icon: PartyPopper, desc: 'Join us for a joyful wedding celebration and function until 3:00 PM.' },
+  { time: '09:30 AM', title: 'Engagement Celebration', icon: PartyPopper, desc: 'Join us for a joyful engagement celebration and function until 3:00 PM.' },
 ];
 
 interface TimelineProps {
@@ -30,7 +30,7 @@ export const Timeline: React.FC<TimelineProps> = ({ event = 'both' }) => {
           {event === 'homecoming' ? "The Evening's Flow" : "The Day's Flow"}
         </span>
         <h2 className="text-5xl font-display text-stone-800 tracking-tight">
-          {event === 'homecoming' ? "Homecoming Timeline" : "Wedding Timeline"}
+          {event === 'homecoming' ? "Homecoming Timeline" : "Engagement Timeline"}
         </h2>
         <div className="w-12 h-px bg-brand-lavender/30 mx-auto mt-6" />
       </div>

@@ -43,7 +43,7 @@ function doPost(e) {
 function doGet() {
   return jsonResponse_({
     ok: true,
-    message: 'Wedding form endpoint is running.',
+    message: 'Engagement form endpoint is running.',
   });
 }
 

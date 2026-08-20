@@ -43,7 +43,7 @@ export const Admin: React.FC = () => {
 
 With joyful hearts, we warmly invite you to celebrate one of the most special days of our lives as we begin our journey together.
 
-Please view our wedding invitation and all the event details through the link below 🌐:
+Please view our engagement invitation and all the event details through the link below 🌐:
 
 ${url}
 
@@ -90,7 +90,7 @@ With love,
             <Sparkles className="w-5 h-5 text-brand-plum animate-pulse" />
           </div>
           <h1 className="text-5xl sm:text-6xl font-display text-stone-800 tracking-tight mb-4 drop-shadow-sm">
-            Wedding <span className="italic font-light text-brand-plum">Admin Panel</span>
+            Engagement <span className="italic font-light text-brand-plum">Admin Panel</span>
           </h1>
           <p className="text-stone-500 font-serif italic text-lg max-w-xl mx-auto">
             Generate personalized invitation links for your guests with specific event access.

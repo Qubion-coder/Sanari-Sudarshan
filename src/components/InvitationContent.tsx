@@ -19,7 +19,7 @@ interface InvitationContentProps {
   eventParam: string;
   fullInviteeName: string;
   eventLabel: string;
-  weddingDate: Date;
+  engagementDate: Date;
   isMusicPlaying: boolean;
   onToggleMusic: () => void;
 }
@@ -29,7 +29,7 @@ export function InvitationContent({
   eventParam,
   fullInviteeName,
   eventLabel,
-  weddingDate,
+  engagementDate,
   isMusicPlaying,
   onToggleMusic,
 }: InvitationContentProps) {
@@ -106,7 +106,7 @@ export function InvitationContent({
             </span>
           </div>
           <div className="relative z-10">
-            <Countdown targetDate={weddingDate} />
+            <Countdown targetDate={engagementDate} />
           </div>
         </div>
       </DeferredMount>
@@ -132,7 +132,7 @@ export function InvitationContent({
             December 24, 2026
           </span>
           <p className="text-stone-500 text-[10px] sm:text-xs mt-2 font-sans tracking-wider">
-            Want a beautiful wedding website like this? Create yours with <a target="_blank" rel="noreferrer" className="text-brand-plum font-bold hover:text-stone-800 transition-colors underline decoration-brand-plum/30 underline-offset-4" href="https://wa.me/94707819074">invitemint</a>
+            Want a beautiful engagement website like this? Create yours with <a target="_blank" rel="noreferrer" className="text-brand-plum font-bold hover:text-stone-800 transition-colors underline decoration-brand-plum/30 underline-offset-4" href="https://wa.me/94707819074">invitemint</a>
           </p>
         </footer>
       </DeferredMount>

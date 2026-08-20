@@ -11,8 +11,8 @@ const events = [
   },
   {
     time: '11.04 AM',
-    title: 'Poruwa Ceremony & Wedding Function',
-    description: 'Poruwa Ceremony commences at 11.04 am, followed by the wedding function at Senuri Grand Castello, Divulapitiya.',
+    title: 'Poruwa Ceremony & Engagement Function',
+    description: 'Poruwa Ceremony commences at 11.04 am, followed by the engagement function at Senuri Grand Castello, Divulapitiya.',
     icon: MapPin,
     color: 'from-blue-500 to-blue-600'
   },

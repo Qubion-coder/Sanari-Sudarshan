@@ -59,14 +59,14 @@ export function IntroVideo({ onComplete, onMusicStart, readyToTransition = true 
           <div className="inline-flex items-center gap-4 mb-6">
             <div className="w-12 sm:w-20 h-[1px] bg-gradient-to-r from-transparent to-brand-plum/60" />
             <span className="text-brand-plum uppercase tracking-[0.5em] text-[10px] sm:text-[11px] font-semibold font-sans drop-shadow-sm">
-              Denasa & Inoka
+              Sanari & Sudarshan
             </span>
             <div className="w-12 sm:w-20 h-[1px] bg-gradient-to-l from-transparent to-brand-plum/60" />
           </div>
 
           <h1 className="text-5xl sm:text-7xl font-names text-stone-800 tracking-tight drop-shadow-sm mb-10 leading-tight">
             Welcome to Our <br />
-            <span className="italic font-light text-brand-plum text-4xl sm:text-6xl">Wedding Celebration</span>
+            <span className="italic font-light text-brand-plum text-4xl sm:text-6xl">Engagement Celebration</span>
           </h1>
 
           <button

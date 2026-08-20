@@ -22,9 +22,9 @@ export default function App() {
 
   const fullInviteeName = `${titleParam} ${nameParam}`.trim();
 
-  let eventLabel = 'Our Wedding Celebration';
+  let eventLabel = 'Our Engagement Celebration';
 
-  const weddingDate = new Date('2026-12-24T08:30:00');
+  const engagementDate = new Date('2026-12-24T08:30:00');
 
   useEffect(() => {
     if (isAdminRoute()) return;
@@ -42,7 +42,7 @@ export default function App() {
 
   const ensureAudio = useCallback(() => {
     if (!audioRef.current) {
-      audioRef.current = new Audio('/Dreams Come True - Dylan Carwyn Romantic Wedding Song 2025 (Lyrics) - Dazzling Tunes (128k).mp3');
+      audioRef.current = new Audio('/sobana-ridma-weerawardena.mp3');
       audioRef.current.loop = true;
       audioRef.current.volume = 0.3;
       audioRef.current.preload = 'none';
@@ -100,7 +100,7 @@ export default function App() {
         eventParam={eventParam}
         fullInviteeName={fullInviteeName}
         eventLabel={eventLabel}
-        weddingDate={weddingDate}
+        engagementDate={engagementDate}
         isMusicPlaying={isMusicPlaying}
         onToggleMusic={toggleMusic}
       />
