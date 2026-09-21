@@ -48,7 +48,7 @@ export const CeremonyDetails: React.FC<CeremonyDetailsProps> = ({ event = 'both'
                 </div>
                 <div>
                   <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 group-hover:text-brand-plum transition-colors duration-500">
-                    Date: December 24, 2026
+                    Date: December 18, 2026
                   </h4>
                 </div>
               </div>

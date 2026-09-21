@@ -129,7 +129,7 @@ export function InvitationContent({
           <Heart className="w-6 h-6 mx-auto mb-6 text-brand-plum fill-brand-lavender/20" />
           <p className="font-names text-4xl sm:text-5xl text-stone-800 mb-2">Sanari & Sudarshan</p>
           <span className="text-[10px] sm:text-[11px] uppercase tracking-[0.4em] font-sans text-stone-400 font-semibold block mb-6">
-            December 24, 2026
+            December 18, 2026
           </span>
           <p className="text-stone-500 text-[10px] sm:text-xs mt-2 font-sans tracking-wider">
             Want a beautiful engagement website like this? Create yours with <a target="_blank" rel="noreferrer" className="text-brand-plum font-bold hover:text-stone-800 transition-colors underline decoration-brand-plum/30 underline-offset-4" href="https://wa.me/94707819074">invitemint</a>

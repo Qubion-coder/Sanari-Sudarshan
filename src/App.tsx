@@ -24,7 +24,7 @@ export default function App() {
 
   let eventLabel = 'Our Engagement Celebration';
 
-  const engagementDate = new Date('2026-12-24T08:30:00');
+  const engagementDate = new Date('2026-12-18T08:30:00');
 
   useEffect(() => {
     if (isAdminRoute()) return;
